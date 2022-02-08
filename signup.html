@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js" defer></script>
+    <script src="https://kit.fontawesome.com/e5aa4cfb11.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Source+Sans+Pro:wght@200;300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav1">
+                <img class="logo" src="beatport-logo.png" alt="logo">
+                <a href="#">genres</a>
+                <a href="#">dj charts</a>
+                <a href="#">dj app</a>
+                <a href="#">beatportal</a>
+                <a href="#">loopcloud</a>
+                <a href="#">plugin boutique</a>
+                <div class="search-bar">
+                    <i class="fas fa-search fa-lg"></i>
+                    <input type="search" placeholder="Search...">
+                </div>
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+            <div class="nav2">
+                <i class="far fa-user fa-lg"></i>
+                <figure>
+                    <i class="far fa-heart fa-lg"></i>
+                    <figcaption>My Beatport</figcaption>
+                </figure>
+                <i class="fas fa-shopping-cart fa-lg"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="signup-form">
+            <div class="signup-header">
+                <h1>Customize Your Beatport Experience</h1>
+                <div class="beatport-id">
+                    <p>Have a Beatport ID?</p>
+                    <p>Log in here</p>
+                </div>
+            </div>
+            <p>Welcome to Beatport! Please fill out the fields below:</p>
+            <form id="signup-form" action="https://www.townway.com.tw/auth" method="post">
+                <div class="form-input">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-input">                
+                    <div class="form-check-div">
+                        <label for="username">Username</label>
+                        <input type="text" id="username">
+                        <p class="usernameCheck">Please input username.</p>
+                    </div>                   
+                </div>
+                <div class="form-input">               
+                    <div class="form-check-div">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                        <p class="passwordCheck">Password must be at least 8 characters long.</p> 
+                    </div>                  
+                </div>
+                <div class="form-input">                
+                    <div class="form-check-div">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword">
+                        <p class="confirmPasswordCheck">Password must be identical.</p>
+                    </div>
+                </div>
+            </form>
+            <button id="formButton">Create Account</button>
+        </div>
+    </main>
+</body>
+<footer>
+    
+</footer>
+</html>

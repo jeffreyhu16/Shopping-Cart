@@ -1,0 +1,101 @@
+.signup-form {
+    font-weight: 300;
+    max-width: 40%;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    border-left: 1px solid #474747;
+    border-right: 1px solid #474747;
+}
+
+.signup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.signup-form h1 {
+    width: 60%;
+}
+
+.signup-form .beatport-id p {
+    font-size: 0.85rem;
+    color: #8c8c8c;
+    text-align: right;
+}
+
+.beatport-id p:nth-of-type(2) {
+    cursor: pointer;
+    color: #39c1de;
+}
+
+.signup-form > p {
+    margin: 1.5rem 0;
+    color: #8c8c8c;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form-input {
+    display: block;
+    height: 4rem;
+    width: 100%;
+    margin: 0.2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-input input {
+    width: 25rem;
+    float: right;
+    color: black;
+    height: 1.4rem;
+    font-size: 1rem;
+    outline: none;
+    margin: 0.2rem 0;
+}
+
+label {
+    color: #8c8c8c;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+#formButton {  
+    font-size: 0.95rem;
+    background-color: rgb(47, 255, 151);
+    color: black;
+    border: none;
+    border-radius: 0.2rem;
+    height: 1.8rem;
+    width: 9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 1.5rem 0 0 auto;
+    text-decoration: none;
+    padding-top: 0.1rem;
+    display: block;
+}
+
+#formButton:hover {
+    cursor: pointer;
+    background-color: rgba(47, 255, 151, 0.904);
+    transition-duration: 0.2s;
+}
+
+.form-input .form-check-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-input .form-check-div p {
+    color: rgba(255, 166, 0, 0.89);
+    font-size: 0.8rem;
+    align-self: flex-end;
+    display: none;
+}
