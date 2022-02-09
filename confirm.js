@@ -20,4 +20,5 @@ totalPrice.textContent = 'Order Total : ' + localStorage.getItem('price');
 function closePopUp() {
     document.querySelector(".confirmation-page").style.display = "none";
     document.querySelector(".overlay").style.display = "none";
+    window.location.href = "main.html";
 }
