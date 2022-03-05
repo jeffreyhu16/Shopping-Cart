@@ -69,7 +69,7 @@ nav {
 .nav2 figure {
     /* border: 2px solid greenyellow; */
     display: flex;
-    width: 35%;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
 }
@@ -211,6 +211,7 @@ h1 {
     width: 30%;
     height: 1.5rem;
     border-radius: 0.2rem;
+    padding-right: 0.2em;
 }
 
 .shortcut-icons .purchase-button-group i {
@@ -316,7 +317,7 @@ td .purchase-button {
     background-color: #373737;
     position: fixed;
     width: 50%;
-    height: 28%;
+    height: 35%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
